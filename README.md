@@ -17,7 +17,7 @@
   - `hum`: Normalized humidity  
   - `windspeed`: Normalized wind speed  
   - `cnt`: Total rentals (casual + registered)
-
+- **Data Correlation** : ![Data Correlation](data/correlation.png)
 ---
 
 ## ✅ 2. Problem Definition
@@ -59,4 +59,10 @@ We compared four different SVR kernels (`linear`, `poly`, `rbf`, and `sigmoid`) 
 - **Polynomial** and especially **sigmoid** kernels had significantly worse results, suggesting they are not a good fit for this dataset.
 
 ### 🎯 Conclusion
-The RBF kernel is the most suitable for capturing the nonlinear relationships in the bike rental dataset. Future work could involve further hyperparameter tuning or comparing this with ensemble methods like **Random Forest** or **XGBoost** for potential improvements.
+The RBF kernel is the most suitable for capturing the nonlinear relationships in the bike rental dataset.
+
+## 🔍 SVR Predictions vs Actual Values
+
+![SVR Prediction Plot](data/plot1.png)
+![SVR Prediction Plot](data/plot2.png)
+
