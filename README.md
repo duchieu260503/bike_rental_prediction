@@ -1,4 +1,4 @@
-# 🚲 Bike Rental Prediction – Check-Up Notes
+# 🚲 Bike Rental Prediction
 
 ## ✅ 1. Dataset Description
 
