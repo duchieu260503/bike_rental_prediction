@@ -17,7 +17,8 @@
   - `hum`: Normalized humidity  
   - `windspeed`: Normalized wind speed  
   - `cnt`: Total rentals (casual + registered)
-- **Data Correlation** : ![Data Correlation](data/correlation.png)
+- **Data Correlation** :
+- ![Data Correlation](data/correlation.png)
 ---
 
 ## ✅ 2. Problem Definition
